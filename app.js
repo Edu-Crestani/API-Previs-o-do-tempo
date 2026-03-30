@@ -15,9 +15,8 @@ document.querySelector('#search').addEventListener('submit', async (event) => {
 
     if (json.cod === 200) {
         showAlert('Cidade encontrada!');
-      } else {
+    } else {
         showAlert('Cidade não encontrada...');
-      }
     }
 });
 
