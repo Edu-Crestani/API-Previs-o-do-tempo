@@ -36,6 +36,8 @@ document.querySelector('#search').addEventListener('submit', async (event) => {
     }
 });
 
+// Informações do clima
+
 function showInfo(json){ 
     showAlert('');
 
