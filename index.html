@@ -10,17 +10,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&family=M+PLUS+Rounded+1c&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <script src="scripts/script.js" defer></script>
     <title>Previsão do tempo</title>
 </head>
 
 <body class="sunny">
-    <header class="header">
+    <header class="header"></header>
 
-    </header class="header">
     <main class="display__weather">
         <h3 class="location__h3">Minha localização</h3>
-        <button class="description__h2" id="change__location">Localização hipotética</button>
+        <button class="description__h2" id="change_location">Localização hipotética</button>
         <h1 class="temperature__h1">97°</h1>
         <h2 class="weather__h2">Ensolarado</h2>
     </main>
@@ -32,47 +33,43 @@
             <ul class="ul__weather">
 
                 <li class="li__upcoming__days active">
-                    <h2 class="li__upcoming__days-h2" id="day1_h2"></h2>
+                    <h2 class="li__upcoming__days__h2" id="day1_h2"></h2>
                     <img src="img/sol.png" alt="Sol" class="weather__img" id="day1_img">
-                    <h3 class="li__upcoming__days-h3" id="day1_h3">69°</h3>
+                    <h3 class="li__upcoming__days__h3" id="day1_h3">69°</h3>
                 </li>
                 <li class="li__upcoming__days">
-                    <h2 class="li__upcoming__days-h2" id="day2_h2"></h2>
+                    <h2 class="li__upcoming__days__h2" id="day2_h2"></h2>
                     <img src="img/sol.png" alt="Sol" class="weather__img" id="day2_img">
-                    <h3 class="li__upcoming__days-h3" id="day2_h3">69° </h3>
+                    <h3 class="li__upcoming__days__h3" id="day2_h3">69°</h3>
                 </li>
                 <li class="li__upcoming__days">
-                    <h2 class="li__upcoming__days-h2" id="day3_h2"></h2>
+                    <h2 class="li__upcoming__days__h2" id="day3_h2"></h2>
                     <img src="img/sol.png" alt="Sol" class="weather__img" id="day3_img">
-                    <h3 class="li__upcoming__days-h3" id="day3_h3">69°</h3>
+                    <h3 class="li__upcoming__days__h3" id="day3_h3">69°</h3>
                 </li>
                 <li class="li__upcoming__days">
-                    <h2 class="li__upcoming__days-h2" id="day4_h2"></h2>
+                    <h2 class="li__upcoming__days__h2" id="day4_h2"></h2>
                     <img src="img/sol.png" alt="Sol" class="weather__img" id="day4_img">
-                    <h3 class="li__upcoming__days-h3" id="day4_h3">69°</h3>
+                    <h3 class="li__upcoming__days__h3" id="day4_h3">69°</h3>
                 </li>
                 <li class="li__upcoming__days">
-                    <h2 class="li__upcoming__days-h2" id="day5_h2"></h2>
+                    <h2 class="li__upcoming__days__h2" id="day5_h2"></h2>
                     <img src="img/sol.png" alt="Sol" class="weather__img" id="day5_img">
-                    <h3 class="li__upcoming__days-h3" id="day5_h3">69°</h3>
+                    <h3 class="li__upcoming__days__h3" id="day5_h3">69°</h3>
                 </li>
                 <li class="li__upcoming__days">
-                    <h2 class="li__upcoming__days-h2" id="day6_h2"></h2>
+                    <h2 class="li__upcoming__days__h2" id="day6_h2"></h2>
                     <img src="img/sol.png" alt="Sol" class="weather__img" id="day6_img">
-                    <h3 class="li__upcoming__days-h3" id="day6_h3">69°</h3>
+                    <h3 class="li__upcoming__days__h3" id="day6_h3">69°</h3>
                 </li>
                 <li class="li__upcoming__days">
-                    <h2 class="li__upcoming__days-h2" id="day7_h2"></h2>
+                    <h2 class="li__upcoming__days__h2" id="day7_h2"></h2>
                     <img src="img/sol.png" alt="Sol" class="weather__img" id="day7_img">
-                    <h3 class="li__upcoming__days-h3" id="day7_h3">69°</h3>
+                    <h3 class="li__upcoming__days__h3" id="day7_h3">69°</h3>
                 </li>
             </ul>
         </div>
     </section>
-
-
-
-
 
     <section class="card__day">
         <div class="superior__part">
@@ -86,25 +83,24 @@
 
             <div class="max__min">
                 <div class="max">
-                    <div>
-                        <i class="fa-regular fa-temperature-full"></i>
+                    <div class="temp__h3__container">
+                        <i class="fa-solid fa-temperature-full" id="max-icon"></i>
                         <h3 class="max__h3">Temperatura máxima</h3>
                     </div>
                     <h3 class="max__temp">10</h3>
                 </div>
+
                 <div class="min">
-                    <div>
-                        <i class="fa-regular fa-temperature-full"></i>
+                    <div class="temp__h3__container">
+                        <i class="fa-solid fa-temperature-full" id="min-icon"></i>
                         <h3 class="min__h3">Temperatura mínima</h3>
                     </div>
-
                     <h3 class="min__temp">1</h3>
                 </div>
             </div>
         </div>
 
-
-        <div class="inferior parte">
+        <div class="inferior__part">
             <ul class="ul__inferior">
                 <li class="li__inferior">
                     <h3 class="li__inferior__h3">12</h3>
@@ -142,6 +138,7 @@
                     <h3 class="li__inferior__h3">12</h3>
                     <img src="img/sol.png" alt="Sol" class="li__inferior__img">
                 </li>
+            </ul>
         </div>
     </section>
 </body>

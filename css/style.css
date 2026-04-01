@@ -8,30 +8,42 @@ body {
 }
 
 :root {
-    font-family: "Datatype:";
+    font-family: "Datatype";
     --maxima: #ff0000;
     --minima: #53e4f7;
 }
 
 .sunny {
     --background: #4accff;
-    --sunnyday-div__weather: linear-gradient(210deg,rgba(74, 204, 255, 1) 0%, rgba(87, 180, 199, 1) 59%, rgba(69, 167, 191, 1) 74%, rgba(0, 116, 158, 1) 100%);;
-    --var-white: #fff;
-    --var-sunnyday--card: linear-gradient(123deg,rgba(242, 245, 56, 1) 0%, rgba(0, 116, 158, 1) 48%, rgba(0, 125, 171, 1) 86%);
-}
+    --sunnyday__div__weather: linear-gradient(
+        210deg,
+        rgba(74, 204, 255, 1) 0%,
+        rgba(87, 180, 199, 1) 59%,
+        rgba(69, 167, 191, 1) 74%,
+        rgba(0, 116, 158, 1) 100%
+    );
 
+    --var__white: #fff;
+
+    --var__sunnyday__card: linear-gradient(
+        123deg,
+        rgba(242, 245, 56, 1) 0%,
+        rgba(0, 116, 158, 1) 48%,
+        rgba(0, 125, 171, 1) 86%
+    );
+}
 
 .display__weather {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--var-white);
+    color: var(--var__white);
 }
 
 .location__h3,
 .weather__h2 {
     font-weight: 100;
-    color: var(--var-white);
+    color: var(--var__white);
 }
 
 .description__h2 {
@@ -39,11 +51,11 @@ body {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    color: var(--var-white);
+    color: var(--var__white);
 }
 
 .temperature__h1 {
     font-weight: 700;
     font-size: 4rem;
-    color: var(--var-white);
+    color: var(--var__white);
 }

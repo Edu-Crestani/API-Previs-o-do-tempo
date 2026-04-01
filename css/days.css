@@ -1,12 +1,12 @@
 .div__weather {    
     padding: 3.5em;
-    background: var(--sunnyday-div__weather);
+    background: var(--sunnyday__div__weather);
     border-radius: 2em;
     opacity: 0.75;
 }
 
-.div__weather__h2{
-    color: var(--var-white);
+.div__weather__h2 {
+    color: var(--var__white);
     font-weight: 400;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .white__line {
-    border-top: 2px solid var(--var-white);
+    border-top: 2px solid var(--var__white);
     margin: 10px 0;
 }
 
@@ -30,9 +30,9 @@
     cursor: pointer;
 }
 
-.li__upcoming__days-h2,
-.li__upcoming__days-h3 {
-    color: var(--var-white);
+.li__upcoming__days__h2,
+.li__upcoming__days__h3 {
+    color: var(--var__white);
     font-weight: 400;
 }
 
