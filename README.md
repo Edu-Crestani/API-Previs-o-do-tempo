@@ -1,1 +1,0 @@
-Aplicativo de Previsão do Tempo desenvolvido por alunos participantes do Grupo de Estudos da AGES PUCRS.
